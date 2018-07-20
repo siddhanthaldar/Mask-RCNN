@@ -6,27 +6,27 @@ The dataset for [Kaggle Data Science Bowl 2018](https://www.kaggle.com/c/data-sc
 
 ## Training 
 Train a new model starting from ImageNet weights
-'''
+```
 cd samples/nucleus/
 python3 nucleus.py train --dataset=data/ --subset=train --weights=imagenet
-'''
+```
 Train a new model starting from specific weights file
-'''
+```
 cd samples/nucleus/
 python3 nucleus.py train --dataset=data/ --subset=train --weights=/path/to/weights.h5
-'''
+```
 
 Resume training a model that you had trained earlier
-'''
+```
 cd samples/nucleus/
 python3 nucleus.py train --dataset=data/ --subset=train --weights=last
-'''
+```
 
 Generate submission file
-'''
+```
 cd samples
 python3 nucleus_test.py 
-'''
+```
 
 ## Results
 ![1](https://user-images.githubusercontent.com/25313941/42985989-6aef75f8-8c11-11e8-88f7-8a061fe2d7b7.jpg)
