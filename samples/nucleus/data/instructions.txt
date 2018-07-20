@@ -1,0 +1,5 @@
+If possible put the data in folders named:
+
+stage1_train
+stage1_test
+stage2_test
